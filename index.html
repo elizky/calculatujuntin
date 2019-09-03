@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora de Juntin</title>
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="previa.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <h1>Calcula los gastos de tu juntin</h1>
+        <div class="inputs">
+            <ul id="lista-ul">
+                <li id="lista-li">
+                    <input type="text" class="nombre" placeholder="Nombre">
+                    <input type="text" class="gasto" placeholder="Cuánto gastó?">
+                </li>
+            </ul>
+        </div>
+        <div class="botones">
+            <input type="button" value="Agregar" id="agregar" onclick="agregaLista()">
+            <input type="button" value="Calcular" id="calcular" onclick="calcular()">
+        </div>
+    </div>
+    <div id="resultado">
+        <h1>Las Cuentas son</h1>
+        <div id="parrafo">
+        </div>
+        <a href="index.html">Volver a Contar</a>
+    </div>
+    <script src="previa.js"></script>
+</body>
+
+</html>
